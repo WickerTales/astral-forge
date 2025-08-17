@@ -1,0 +1,88 @@
+/* Reset & basic styles */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a1a2e;
+  color: #f0f0f0;
+  line-height: 1.6;
+  text-align: center;
+}
+header {
+  padding: 20px;
+  background-color: #0f0f1e;
+}
+header h1 {
+  font-size: 2.5em;
+}
+nav a {
+  color: #f0f0f0;
+  text-decoration: none;
+  margin: 0 15px;
+}
+nav a:hover {
+  color: #ffcc00;
+}
+
+section {
+  padding: 50px 20px;
+}
+
+#hero {
+  background: linear-gradient(135deg, #29295c, #0f0f1e);
+  padding: 100px 20px;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #ffcc00;
+  color: #1a1a2e;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.btn:hover {
+  background-color: #e6b800;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #29295c;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+}
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.product-card h3 {
+  margin: 10px 0;
+}
+.product-card p {
+  margin-bottom: 15px;
+}
+.product-card a {
+  background-color: #ffcc00;
+  color: #1a1a2e;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.product-card a:hover {
+  background-color: #e6b800;
+}
+
+footer {
+  background-color: #0f0f1e;
+  padding: 20px;
+}
